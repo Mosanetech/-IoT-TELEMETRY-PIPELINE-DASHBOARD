@@ -1,0 +1,9 @@
+sensors:
+  - id: greenhouse-1
+    interval: 3
+
+  - id: greenhouse-2
+    interval: 5
+
+  - id: greenhouse-3
+    interval: 7

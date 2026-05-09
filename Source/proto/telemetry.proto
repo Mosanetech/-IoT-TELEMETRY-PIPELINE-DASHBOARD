@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+message SensorReading {
+  string sensor_id = 1;
+  float temperature = 2;
+  float humidity = 3;
+  float soil_moisture = 4;
+  float light = 5;
+  int64 timestamp = 6;
+}
+
+
+[
+  {
+    "sensor_id": "greenhouse-1"
+  }
+]
+
+

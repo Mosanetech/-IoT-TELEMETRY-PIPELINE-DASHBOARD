@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IoT Telemetry Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1>Greenhouse Telemetry Dashboard</h1>
+
+    <div class="cards">
+        <div class="card">
+            <h2>Temperature</h2>
+            <p id="temp">-- °C</p>
+        </div>
+
+        <div class="card">
+            <h2>Humidity</h2>
+            <p id="humidity">-- %</p>
+        </div>
+
+        <div class="card">
+            <h2>Soil Moisture</h2>
+            <p id="soil">-- %</p>
+        </div>
+
+        <div class="card">
+            <h2>Light</h2>
+            <p id="light">-- lux</p>
+        </div>
+    </div>
+
+    <canvas id="chart"></canvas>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
